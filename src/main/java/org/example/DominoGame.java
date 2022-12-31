@@ -201,7 +201,7 @@ public class DominoGame
         }
     }
     private void createDominoStones() {
-        DominoPool pool = new DominoPool();
+        Pool pool = new DominoPool();
         stonesPool = pool.provideShuffledDominoHeap();
     }
     private void distributeStones() {

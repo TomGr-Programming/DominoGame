@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9457b4e-cabf-4a6d-86d8-92016deaffc0" name="Changes" comment="Klassen hinzugefügt&#10;Die Klassen aus damaligen Projekt wurden hinzugefügt">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    <list default="true" id="e9457b4e-cabf-4a6d-86d8-92016deaffc0" name="Changes" comment="In der pom.xml wurde die Dependency für JUnit Tests hinzugefügt.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Pool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DominoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DominoGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DominoPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DominoPool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +63,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672514393705</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Main update&#10;Die Main Klasse wurde aktualisiert mit der Erstellung der notwendigen Klassen. jetzt Projekt auf dem Stand von damals aus dem ersten Semester.&#10;&#10;Der Code ist aktuell sehr schwer zu lesen, daher muss ein Refactoring vorgenommen werden.">
+      <created>1672514533738</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672514533738</updated>
+    </task>
+    <task id="LOCAL-00003" summary="In der pom.xml wurde die Dependency für JUnit Tests hinzugefügt.">
+      <created>1672514605059</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672514605059</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,6 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Klassen hinzugefügt&#10;Die Klassen aus damaligen Projekt wurden hinzugefügt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klassen hinzugefügt&#10;Die Klassen aus damaligen Projekt wurden hinzugefügt" />
+    <MESSAGE value="Main update&#10;Die Main Klasse wurde aktualisiert mit der Erstellung der notwendigen Klassen. jetzt Projekt auf dem Stand von damals aus dem ersten Semester.&#10;&#10;Der Code ist aktuell sehr schwer zu lesen, daher muss ein Refactoring vorgenommen werden." />
+    <MESSAGE value="In der pom.xml wurde die Dependency für JUnit Tests hinzugefügt." />
+    <option name="LAST_COMMIT_MESSAGE" value="In der pom.xml wurde die Dependency für JUnit Tests hinzugefügt." />
   </component>
 </project>
