@@ -7,7 +7,7 @@ package org.example;
  * @author Tom Griesbach
  * @version 07.10.2018
  */
-public class SmartPlayer extends ComputerPlayer
+public class SmartPlayer extends Player
 {
     public SmartPlayer()
     {
