@@ -10,7 +10,7 @@ import java.util.Random;
  * @author Tom Griesbach
  * @version 07.10.2018
  */
-abstract class Player
+abstract class Player implements IPlayer
 {
     protected List<Domino> stonesPlayer = new LinkedList<>();
     protected Domino currentStone;
@@ -25,12 +25,16 @@ abstract class Player
     public ArrayList getlistWithPossibleStones() {
         return listWithPossibleStones;
     }
+    @Override
     public String[] getpossibleChoicesString() {
         return choices;
     }
+    @Override
     public Domino getCurrentStone() {
         return currentStone;
     }
+
+    @Override
     public int getChoice() {
         return choice;
     }
