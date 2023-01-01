@@ -34,12 +34,12 @@ abstract class Player
     public int getChoice() {
         return choice;
     }
-    protected abstract void makeMove();
-    protected abstract void makeChoice(int range);
-    protected boolean iAmHuman() {
+    public abstract void makeMove();
+    public abstract void makeChoice(int range);
+    public boolean iAmHuman() {
         return false;
     }
-    protected boolean iAmSmart() {
+    public boolean iAmSmart() {
         return true;
     }
     public void acceptCurrentStone(Domino stone) {

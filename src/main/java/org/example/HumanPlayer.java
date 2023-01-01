@@ -22,7 +22,7 @@ public class HumanPlayer extends Player
     }
 
     @Override
-    protected void makeChoice(int range) {
+    public void makeChoice(int range) {
 
     }
 }

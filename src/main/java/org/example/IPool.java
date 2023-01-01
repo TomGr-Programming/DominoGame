@@ -2,6 +2,6 @@ package org.example;
 
 import java.util.List;
 
-public interface Pool {
+public interface IPool {
     public List<Domino> provideShuffledDominoHeap();
 }

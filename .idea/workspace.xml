@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9457b4e-cabf-4a6d-86d8-92016deaffc0" name="Changes" comment="ComputerPlayer wurde entfernt, da Player als Oberklasse ausreicht bzw. ComputerPlayer keine sinnvolle Business Logik enthielt">
+    <list default="true" id="e9457b4e-cabf-4a6d-86d8-92016deaffc0" name="Changes" comment="Player Klasse wurde in Abstrakte Klasse geändert. MakeChoice und MakeMove wurden als Abstrakte Methoden eingeführt.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/IPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DominoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DominoGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DominoPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DominoIPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HumanPlayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SmartPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SmartPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Pool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/IPool.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/StupidPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/StupidPlayer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +22,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -105,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672568007771</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Player Klasse wurde in Abstrakte Klasse geändert. MakeChoice und MakeMove wurden als Abstrakte Methoden eingeführt.">
+      <created>1672571075271</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672571075271</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +135,7 @@
     <MESSAGE value="In der pom.xml wurde die Dependency für JUnit Tests hinzugefügt." />
     <MESSAGE value="Um die Abhängigkeit zwischen den Klassen DominoGame und DominioPool zu reduzieren, wurde das Interface Pool eingeführt. Die Abhängigkeiten bestehen jetzt nicht mehr von der konkreten Implementierung DominoPool" />
     <MESSAGE value="ComputerPlayer wurde entfernt, da Player als Oberklasse ausreicht bzw. ComputerPlayer keine sinnvolle Business Logik enthielt" />
-    <option name="LAST_COMMIT_MESSAGE" value="ComputerPlayer wurde entfernt, da Player als Oberklasse ausreicht bzw. ComputerPlayer keine sinnvolle Business Logik enthielt" />
+    <MESSAGE value="Player Klasse wurde in Abstrakte Klasse geändert. MakeChoice und MakeMove wurden als Abstrakte Methoden eingeführt." />
+    <option name="LAST_COMMIT_MESSAGE" value="Player Klasse wurde in Abstrakte Klasse geändert. MakeChoice und MakeMove wurden als Abstrakte Methoden eingeführt." />
   </component>
 </project>

@@ -23,7 +23,7 @@ public class StupidPlayer extends Player
     }
 
     @Override
-    protected void makeChoice(int range) {
+    public void makeChoice(int range) {
 
     }
 }

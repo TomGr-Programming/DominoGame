@@ -3,7 +3,7 @@ package org.example;
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
-public class DominoPool implements Pool {
+public class DominoIPool implements IPool {
     private static final int MAX_NUMBER_ON_DOMINO = 5;
     @Override
     public List<Domino> provideShuffledDominoHeap() {
