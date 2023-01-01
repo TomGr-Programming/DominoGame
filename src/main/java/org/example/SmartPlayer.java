@@ -13,10 +13,13 @@ public class SmartPlayer extends Player
     {
 
     }
+    @Override
     public void makeMove() {
         makelistWithPossibleStones();
         makeChoice(listWithPossibleStones.size());
     }
+
+    @Override
     public void makeChoice(int range) {
         choice = random.nextInt(range);
     }

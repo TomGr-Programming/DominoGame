@@ -15,9 +15,15 @@ public class HumanPlayer extends Player
     public boolean iAmHuman() {
         return true;
     }
+    @Override
     public void makeMove() {
         makelistWithPossibleStones();
         possibleChoicesToStringArray();
+    }
+
+    @Override
+    protected void makeChoice(int range) {
+
     }
 }
 

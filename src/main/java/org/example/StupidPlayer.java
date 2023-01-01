@@ -16,9 +16,15 @@ public class StupidPlayer extends Player
     public boolean iAmSmart() {
         return false;
     }
+    @Override
     public void makeMove() {
         makelistWithPossibleStones();
         choice = 0;
+    }
+
+    @Override
+    protected void makeChoice(int range) {
+
     }
 }
 

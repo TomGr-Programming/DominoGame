@@ -10,7 +10,7 @@ import java.util.Random;
  * @author Tom Griesbach
  * @version 07.10.2018
  */
-public class Player
+abstract class Player
 {
     protected List<Domino> stonesPlayer = new LinkedList<>();
     protected Domino currentStone;
@@ -34,12 +34,8 @@ public class Player
     public int getChoice() {
         return choice;
     }
-    protected void makeMove() {
-
-    }
-    protected void makeChoice(int range) {
-
-    }
+    protected abstract void makeMove();
+    protected abstract void makeChoice(int range);
     protected boolean iAmHuman() {
         return false;
     }
@@ -91,5 +87,6 @@ public class Player
         }
         stonesPlayer.remove(position);
     }
+
 }
 
